@@ -8,7 +8,7 @@ const app: Express = express();
 
 // Configuración CORS
 const corsOptions = {
-  origin: 'https://track-day-s-reservas-front.vercel.app', 
+  origin: 'http://localhost:3000/', 
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', 
   credentials: true,
 };
